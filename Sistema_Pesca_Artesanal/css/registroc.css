@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+	background:#fdfd96;
+	background-attachment:fixed;
+	font-family: sans-serif;
+}
+
+header{
+	background: #00f;
+	width:100%;
+}
+h1{
+	text-align: center;
+
+}
+
+div{
+	width:70px;
+	height:70px;
+}
+	
+img{
+	border-radius:5px;
+}	
+
+.logotipo{
+	position:absolute;
+	top:0px;
+	bottom:;
+	right:;
+	left:95%;
+}
+
+
+header nav{
+	background:#a98307;
+	width:100%;
+	overflow:hidden;
+	padding-left: 15px; 
+}
+/*no funciona el texto*/
+h2{
+	text-align: right:20px;
+}
+/*no funciona el texto */
+
+header nav ul{
+	list-style:none;
+}
+
+header nav ul li{
+	float:left;
+}
+
+nav ul li a{
+	padding:10px 20px 0px 0px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	
+}
+
+header nav ul li a:hover{
+	background-color:#00f;
+}
+
+form{
+	width:89%;
+	border:1px solid #a98307;
+	margin:20px;
+	padding: 20px;
+}
+
+
+/*formulario personal*/
+form{
+	background-color:#ebe017;
+	
+
+}
+
+
+label{
+	font-size:12px;
+	/*display:block; lo colca en bloque */
+	width:100%;
+}
+input, textarea {
+	margin-bottom:18px;
+	padding: 2px;
+}
+input, textarea:{
+	border:1px solid;#00f;
+
+}
+
+input[type="submit"]{
+	margin-bottom:0;
+	background: #a98307;
+	color:#fff;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background: #00f;
+	cursor:pointer;
+
+
+	/*formulario familiar*/
+
+
+

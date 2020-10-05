@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro</title>
+
+	<link rel="stylesheet" href="../css/registroc.css">
+
+</head>
+<body>
+
+	<header>
+		<img src="../imag/logo_1_unexca.jpg" with="70"height="70" align="rigth"alt="buscando logo unexca">
+
+	<h1><B>Registro Pescador Artesanal</B></h1>
+
+		<div class="logotipo">
+			<img src="../imag/LOGO INSOPESCA (3).jpg" with="70"height="70" align="left"alt="BUSCANDO LOGO INSOPESCA">
+
+		</div>
+
+		<nav>
+			<ul>
+				
+				<li><a href="produccion.html">Registro de Produccion</a></li>
+				<li><a href="#">Solicitud Organizacion_Actualizacion Conpp
+				</a></li>
+				<li><a href="#">Solicitud Formacion</a></li>
+				<li><a href="#">Solicitud Beneficios</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+
+	<section class ="rp">
+		
+		<form action="#"method="POST">
+			<h2>Datos Personales Pescador Artesanal</h2>
+			<br>
+				
+		<B><label for="nombre">Nombre:</label></B>
+		<input type="text" id="nombre" required placeholder="Nombre">
+
+		<B><label for="apellido">Apellido:</label></B>
+		<input type="text" id="apellido" required placeholder="Apellido">
+
+		<B><label for="numero_cedula">Cedula:</label></B>
+		<input type="number" id="numero_cedula" required placeholder="Cedula" min="999" max="70000000"/>
+
+		<B><label for="sexo">Sexo:</label></B><select name="sexo"id="sexo">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="femenino1">Femenina</option>
+			<option value="masculino">Masculino</option></select>
+			
+		<B><label for="edad">Edad:</label></B>
+		<input type="number" id="edad" placeholder="Edad" min="10" max="200"/>
+
+		<B><label for="fecha_nacimiento">Fecha Nacimiento:</label></B>
+		<input type="date" id="fecha_nacimiento" placeholder="fecha_Nacimiento"/>
+
+		<B><label for="nivel_educativo">Educacion:</label></B><select name="nivel_educativo"id="nivel_educativo">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="sin_estudios1">Sin Estudios</option>
+			<option value="primaria">Primaria</option>
+			<option value="bachiller">Bachiller</option>
+			<option value="tecnico">Tecnico</option>
+			<option value="profesional">Profesional</option></select>
+			
+
+		<B><label for="rif">Rif:</label></B>
+		<input type="text" id="rif" required placeholder="Escribe tu rif">
+
+		<B><label for="numero_telefono">Numero Telefono:</label></B>
+		<input type="number" id="numero_telefono" placeholder="Numero telefono">
+
+		<B><label for="estado_civil">Estado Civil:</label></B>
+		<select name="estado_civil"id="estado_civil">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="soltero">Soltero</option>
+			<option value="casado">Casado</option>
+			<option value="concubino">Concubino</option>
+			<option value="viudo">Viudo</option>
+			<option value="divorciado">Divorciado</option></select>
+
+		<B><label for="mail">Email:</label></B>
+		<input type="email" id="mail" required placeholder="Correo Electronico">
+
+
+		<input type="reset" value="Borrar"/>
+
+		<input type="submit"value="Enviar">
+
+	</form>
+
+		
+		<form>
+			<h2>Datos Familiares del Pescador Artesanal</h2>
+			<br>
+			
+		<B><label for="nombre_pareja">Nombre Pareja:</label></B>
+		<input type="text" id="nombre_pareja" required placeholder="Nombre_Pareja">
+
+		<B><label for="apellido_pareja">Apellido Pareja:</label></B>
+		<input type="text" id="apellido_pareja" required placeholder="Apellido Pareja">
+
+		<B><label for="cedula_pareja">Cedula Pareja:</label></B>
+		<input type="number" id="cedula_pareja" required placeholder="Cedula Pareja" min="999" max="70000000"/>
+
+		<B><label for="sexo_pareja">Sexo Pareja:</label></B><select name="sexo_pareja"id="sexo_pareja">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="femenino1">Femenina</option>
+			<option value="masculino">Masculino</option></select>
+			
+
+		<B><label for="edad_pareja">Edad Pareja:</label></B>
+		<input type="number" id="edad_pareja" placeholder="edad_pareja" min="10" max="200"/>
+
+		<B><label for="fecha_nacip">Fecha Nacimiento Pareja:</label></B>
+		<input type="date" id="fecha_nacip" placeholder="fecha_Nacimiento_Pareja"/>
+
+		<B><label for="estado_cip">Estado Civil Pareja:</label></B>
+		<select name="estado_cip"id="estado_cip">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="soltero">Soltero</option>
+			<option value="casado">Casado</option>
+			<option value="concubino">Concubino</option>
+			<option value="viudo">Viudo</option></select>
+
+		<B><label for="ocupacion">Ocupacion:</label></B>
+		<input type="text" id="ocupacion" placeholder="Ocupacion">
+ 
+		<B><label for="nivel_educp">Educacion Pareja:</label></B><select name="nivel_educp"id="nivel_educp">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="sin_estudios1">Sin Estudios</option>
+			<option value="primaria">Primaria</option>
+			<option value="bachiller">Bachiller</option>
+			<option value="tecnico">Tecnico</option>
+			<option value="profesional">Profesional</option></select>
+			
+		<B><label for="rif_pareja">Rif Pareja:</label></B>
+		<input type="text" id="rif_pareja" placeholder="Rif Pareja">
+
+		<B><label for="numero_telfp">Telefono Pareja:</label></B>
+		<input type="number" id="numero_telfp" placeholder="Telefono Pareja">
+
+		<B><label for="mail_pareja">Email Pareja:</label></B>
+		<input type="email" id="mail_pareja" required placeholder="Correo Electronico">
+
+		<B><label for="numero_hijos">Numero Hijos:</label></B>
+		<input type="number" id="numero_hijos"  placeholder="Numero Hijos" min="1">
+
+		<B><label for="femenina">Femenina:</label></B>
+		<input type="number" id="femenina"  placeholder="Hija Femenina" min="1">
+
+		<B><label for="masculino">Masculino:</label></B>
+		<input type="number" id="masculino"  placeholder="Hijo Masculino" min= "1">
+
+		<B><label for="menor_18a">Menor 18 anos:</label></B>
+		<input type="number" id="menor_18a"  placeholder="Menor 18 anos" min="1">
+
+		<B><label for="vive_conpadres">Vive con Padres</label></B><select name="vive_conpadres"id="vive_conpadres">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="vive_confamiliares">Vive con Familiares</label></B><select name="vive_confamiliares"id="vive_confamiliares">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="vive_otraspersonas">Otras Personas</label></B><select name="vive_otraspersonas"id="vive_otraspersonas">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="descripcion">Descripcion:</label></B>
+		<input type="text" id="descripcion"  placeholder="Descripcion">
+
+
+		<input type="reset" value="Borrar"/>
+
+		<input type="submit"value="Enviar">
+
+
+	</form>
+
+		<form>
+			<h2>Datos de Vivienda del Pescador Artesanal</h2>
+			<br>
+
+		<B><label for="direc_hab">Direccion de Habitacion:</label></B><select name="direc_hab"id="direc_hab">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="amazonas">Amazonas</option>
+			<option value="anzoategui">Anzoategui</option>
+			<option value="apure">Apure</option>
+			<option value="aragua">Aragua</option>
+			<option value="barinas">Barinas</option>
+			<option value="bolivar">Bolivar</option>
+			<option value="carabobo">Carabobo</option>
+			<option value="cojedes">Cojedes</option>
+			<option value="delta amacuro">Delta Amacuro</option>
+			<option value="distrito_capital">Distrito Capital</option>
+			<option value="falcon">Falcon</option>
+			<option value="guarico">Guarico</option>
+			<option value="la_guaira">La Guaira</option>
+			<option value="lara">Lara</option>
+			<option value="merida">Merida</option>
+			<option value="miranda">Miranda</option>
+			<option value="monagas">Monagas</option>
+			<option value="nueva_esparta">Nueva Esparta</option>
+			<option value="portuguesa">Portuguesa</option>
+			<option value="sucre">Sucre</option>
+			<option value="tachira">Tachira</option>
+			<option value="trujillo">Trujillo</option>
+			<option value="yaracuy">Yaracuy</option>
+			<option value="zulia">Zulia</option></select>
+
+		<B><label for="municipio">Municipio:</label></B>
+		<input type="text" id="municipio" placeholder="Municipio">
+
+		<B><label for="parroquia">Parroquia:</label></B>
+		<input type="text" id="parroquia" placeholder="Parroquia"> 
+
+		<B><label for="sector">Sector:</label></B>
+		<input type="text" id="sector" placeholder="Sector">
+
+		<B><label for="calle_avenida">Calle-Avenida:</label></B>
+		<input type="text" id="calle_avenida" Calle-Avenida>
+
+		<B><label for="nombre_comunidad">Nombre de la Comunidad:</label></B>
+		<input type="text" id="nombre_comunidad" placeholder="Nombre de la Comunidad">
+
+
+		<B><label for="propia">Vivienda Propia:</label></B><select name="propia"id="propia">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="alquilada">Vivienda alquilada:</label></B><select name="alquilada"id="alquilada">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+		
+		<B><label for="adjudicada">Vivienda Adjudicada:</label></B><select name="adjudicada"id="adjudicada">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="casa">Casa :</label></B><select name="casa"id="casa">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="apartamento">Apartamento:</label></B><select name="apartamento"id="apartamento">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="vivienda_altor">Vivienda Alto Riesgo:</label></B><select name="vivienda_altor"id="vivienda_altor">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+
+		<B><label for="damnificado">Damnificado:</label></B><select name="damnificado"id="damnificado">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="numero_hab">Numero de Habitaciones:</label></B>
+		<input type="number" id="numero_hab"  placeholder="Numero de Habitaciones" min="1">
+
+		<B><label for="numero_bano">Numero de banos:</label></B>
+		<input type="number" id="numero_bano"  placeholder="Numero de Banos" min="1">
+
+		<B><label for="serv_aguap">Servicio Agua Potable:</label></B><select name="serv_aguap"id="serv_aguap">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="serv_luz">Servicio Luz Electrica:</label></B><select name="serv_luz"id="serv_luz">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="serv_aguas">Servicio Aguas Servidas:</label></B><select name="serv_aguas"id="serv_aguas">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="serv_gas">Servicio de Gas:</label></B><select name="serv_gas"id="serv_gas">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		<B><label for="serv_telf">Servicio Telefonico:</label></B><select name="serv_telf"id="serv_telf">
+			<option placeholder="seleccionar">Seleccionar</option>
+			<option value="si1">Si</option>
+			<option value="no">No</option></select>
+
+		
+
+		<input type="reset" value="Borrar"/>
+
+		<input type="submit"value="Enviar">
+
+	</form>
+		
+		<form>
+			<h2>Datos de Salud del Pescador Artesanal</h2>
+			<br>
+				
+		<B><label for="enfer_cronica">Enfermedad Cronica:</label></B>
+		<input type="text" id="enfer_cronica" placeholder="Enfermada Cronica">
+
+		<B><label for="otro_tipoenfermedad">Otro Tipo de Enfermedad:</label></B>
+		<input type="text" id="otro_tipoenfermedad"  placeholder="Otro Tipo de Enfermedad">
+
+		<B><label for="operaciones">Operaciones Quirurgicas:</label></B>
+		<input type="text" id="operaciones"  placeholder="Operaciones Quirurgicas"/>
+
+		<B><label for="medic_permanente">Medicina Permanente:</label></B>
+		<input type= "text" id="medic_permanente"  placeholder= "Medicina Permanente"/>
+			
+		<B><label for="discapacidad">Discapacidad:</label></B>
+		<input type="text" id="discapacidad" placeholder="Edad" min="10" max="200"/>
+
+		<B><label for="inscrito sso">Indcrito SSO:</label></B>
+		<input type="text" id="inscrito sso" placeholder="inscrito sso"/>
+
+		<input type="reset" value="Borrar"/>
+
+		<input type="submit"value="Enviar">
+
+
+		</form>
+
+
+		
+		<form>
+			<h2>Datos Socio Economicos</h2>
+			<br>
+				
+		<B><label for="ingreso_quincp">Ingreso Quincenal Pescador:</label></B>
+		<input type="number" id="ingreso_quincp" placeholder="Ingreso Quincenal Pescador" min="1">
+
+		<B><label for="ingreso_quincm">Ingreso Quincenal Pareja:</label></B>
+		<input type="number" id="ingreso_quincm"  placeholder="Ingreso Quincenal Pareja" min="1">
+
+		<B><label for="otros_ingresoquinc">Otros Ingresos Quincenales:</label></B>
+		<input type="number" id="otro_ingresoquinc"  placeholder="Otros Ingresos" min="1">
+
+		<B><label for="total_quincenal">Total Ingreso Quincenal:</label></B>
+		<input type="number" id="total_quincenal"  placeholder="Total Ingreso Quincenales" min="1">
+
+		
+
+		<input type="reset" value="Borrar"/>
+
+
+		<input type="submit"value="Enviar">
+
+	</form>
+</section>
+
+
+
+	<footer>
+		<p>Gracias</p>
+	</footer>
+	
+
+</body>
+</html>

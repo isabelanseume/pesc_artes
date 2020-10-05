@@ -1,0 +1,67 @@
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+img{
+	
+	border-radius: 5px;
+}
+.logo {
+	position:relative;
+	top:80px;
+	bottom:0;
+	right:0px;
+	left:580px;
+}
+body {
+	background: url(../imag/mar.jpg);
+	-webkit-background-size:cover;
+	background-attachment:fixed;
+	font-family: sans-serif;
+	font-size:30px;
+	top:350px;
+	left:200px;
+	color:#fff;
+
+}
+
+ul{
+	list-style-type:none;
+	margin:130px;
+	padding:0px 100px 0px 260px;
+	background:#fff;
+	
+	font-family:sans-serif;
+	font-size:20px;
+}
+
+li{  
+	float: left;
+}
+
+li a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	padding: 16px 16px;
+	text-decoration:none;
+
+}
+
+li a:visited{
+	color:#fff;
+}
+
+li a:hover{
+	background-color:#008;
+	color:#808000;
+
+}
+
+ 	
+
+	
